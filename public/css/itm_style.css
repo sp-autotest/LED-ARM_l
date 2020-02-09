@@ -1,0 +1,415 @@
+
+
+.header {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5) !important;
+}
+
+
+.nav > li:hover > a, .nav > li.active > a, .nav > li.menu-open > a {
+    background-color: #61E185 !important;
+    color: #ffffff !important;
+}
+.nav, .main-sidebar .user-panel, .nav > li.header {
+    padding-top: 20px;
+}
+.btn-primary {
+    background-color: #61E185 !important;
+    border-color: #61E185 !important;
+}
+
+#add_company {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/*
+.fa-chain::before, .fa-link::before {
+    content: url("/img/");
+}
+*/
+.nav > li > a {
+    color: #565770 !important;
+}
+.nav > li > a > svg {
+    display: inline-block !important;
+    top: 5px !important;
+    position: relative !important;
+    margin-right: 5px !important;
+    fill: #878797 !important;
+    /*fill="#1F2041" fill-opacity="0.5"*/
+    /*fill-opacity: 1 !important;*/
+}
+.nav > li.active > a > svg, .nav > li > a:hover > svg {
+    display: inline-block !important;
+    top: 5px !important;
+    position: relative !important;
+    margin-right: 5px !important;
+    fill: #ffffff !important;
+    fill-opacity: 0.9 !important;
+}
+.nav li > a > .fa-angle-left {
+    margin-top: -4px !important;
+}
+.sidebar {
+    background-color: #eeeeee;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    width: 240px !important;
+}
+
+#contact-list {
+    height: 100%;
+    border-right: solid 1px #333333;
+    padding-left: 0 !important;
+    max-height: 450px;
+    overflow: auto;
+}
+#contact-list UL {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+#contact-list UL LI {
+    display: block;
+    float: left;
+    border-bottom: solid 1px #cccccc;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact-avatar {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.contact-avatar IMG {
+    width: 40px !important;
+    height: 40px !important;
+}
+#contact-list UL LI A SPAN {
+    display: block;
+    padding-top: 10px;
+    width: 100%;
+    height: 45px;
+}
+
+@media (min-width: 1366px) {
+    #input-block {
+        width: 100%;
+        height: 125px;
+        border-top: solid 1px #333333;
+        margin-top: 15px;
+        padding-top: 10px;
+    }
+    #input-block .form-group {
+        float: left !important;
+        width: 90% !important;
+    }
+    #input-block A {
+        display: block;
+        float: right;
+        width: 100px;
+        height: 90px;
+        margin-top: 25px;
+        border: outset;
+    }
+    #input-block A IMG {
+        margin-top: 15px;
+        margin-left: 16px;
+    }
+
+    .chat-block {
+       
+        background-color: #fcfcfc;
+        min-height: 450px !important;
+        max-height: 450px;
+        
+    }
+}
+
+.chat-block {
+   
+    background-color: #fcfcfc;
+    min-height: 150px;
+    max-height: 450px;
+   
+}
+
+.chat-block .outside-msg, .chat-block .inside-msg {
+    border-radius: 5px;
+    border: solid 1px #999999;
+    width: 280px;
+    clear: both;
+    margin-top: 10px;
+    word-wrap: break-word;
+    padding: 6px;
+}
+.chat-block .outside-msg .contact-avatar, .chat-block .inside-msg .contact-avatar {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.chat-block .outside-msg B, .chat-block .inside-msg B {
+    clear: both;
+    display: block;
+    margin-left: 10px;
+}
+.chat-block .outside-msg {
+    float: right;
+    margin-right: 10px;
+    background-color: #b3d7ff;
+}
+.chat-block .inside-msg {
+    float: left;
+    margin-left: 10px;
+    background-color: #6cb2eb;
+}
+
+
+
+.pace-running {
+    background-color: #ffffff !important;
+}
+.pace-done {
+    background-color: #ffffff !important;
+}
+
+.header-info-block {
+    width: 220px;
+    margin-left: 70%;
+/*    font-family: Montserrat;*/
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 10px;
+    color: #575870;
+    top: 6px;
+    position: relative;
+    text-align: center;
+}
+.header-info-block .balance-block {
+    width: 100px;
+    float: left;
+}
+.header-info-block .balance-block SPAN {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    color: #6DE18D;
+    display: block;
+}
+.header-info-block .company-block {
+    width: 100px;
+    float: left;
+}
+.header-info-block .company-block SPAN {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    color: #FF8227;
+    display: block;
+}
+.header .navbar-user IMG {
+    margin: -10px 10px 0 0 !important;
+}
+.header-splitter {
+    width: 2px;
+    height: 80%;
+    background: rgba(31, 32, 65, 0.1);
+    position: absolute;
+    /*left: 86.56%;*/
+    right: 14.2%;
+    top: 10.14%;
+    bottom: 30%;
+}
+.navbar-brand SPAN {
+    font-size: 12px;
+    background: rgba(31, 32, 65, 0.25);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 55px;
+    height: 10px;
+    margin-top: 7px;
+    display: block;
+    float: right;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-right: 35px;
+}
+
+
+.conversations span {
+    position: absolute;
+    left: 21.39%;
+    right: 24.69%;
+    top: 14.14%;
+    bottom: 27.14%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    color: #6DE18D;
+}
+
+.sidebar .nav > li > a i {
+    color: rgba(31, 32, 65, 0.5) !important;
+}
+.sidebar .nav > li.active > a i, .sidebar .nav > li:hover > a i {
+    color: #ffffff !important;
+}
+
+.sidebar .sub-menu > li > a {
+    color: #565770 !important;
+}
+.sidebar .sub-menu > li.active > a, .sidebar .sub-menu > li:hover > a {
+    color: #565770 !important;
+    text-decoration: underline !important;
+}
+
+
+.login-logo {
+    margin: 0 auto !important;
+    display: block !important;
+    margin-left: 46% !important;
+    margin-top: 4% !important;
+    z-index: 10111 !important;
+    position: relative !important;
+    max-width: 200px !important;
+}
+.login.login-v2 .login-header .brand small {
+    color: #6B6B81 !important;
+    text-align: center !important;
+    text-transform: none !important;
+}
+.login.login-v2 .login-header .brand {
+    color: #1F2041 !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+.login.login-v2 {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 0 !important;
+    padding-top: 65px !important;
+    height: 450px !important;
+    margin-top: 8% !important;
+}
+.login.login-v2 .form-control {
+    border-color: rgba(31, 32, 65, 0.5) !important;
+    background-color: #ffffff !important;
+    color: rgba(31, 32, 65, 0.75) !important;
+}
+.login.login-v2 label {
+    color: #1F2041 !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    text-transform: uppercase !important;
+}
+
+.inner-addon {
+    position: relative;
+}
+.inner-addon .glyphicon {
+    position: absolute !important;
+    left: 0px !important;
+    color: #6F727A !important;
+    padding: 10px !important;
+    pointer-events: none !important;
+}
+.inner-addon .form-control {
+    padding-left: 35px !important;
+}
+.form-group-lg.inner-addon .fa {
+    font-size: 20px !important;
+    margin-top: 12px !important;
+    position: absolute !important;
+    margin-left: 10px !important;
+}
+
+
+.desktop-tabs {
+    border-bottom: 1px solid #E9E9EC !important;
+}
+.desktop-tabs A {
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    color: rgba(31, 32, 65, 0.5) !important;
+}
+.desktop-tabs A.active {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    color: #1F2041 !important;
+    border-bottom: 3px solid #5CDF81 !important;
+    border-radius: 1px !important;
+    height: calc(39px + 5px) !important;
+    position: relative !important;
+    top: 2px !important;
+}
+
+.ui-sortable .panel-heading {
+    cursor: auto !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid rgba(31, 32, 65, 0.05) !important;
+}
+.panel-heading .panel-title, .panel-title {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    text-transform: uppercase !important;
+    color: #1F2041 !important;
+}
+.panel-inverse > .panel-heading {
+    background: transparent !important;
+}
+
+
+.daterangepicker {
+    width: 650px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.daterangepicker .left {
+    width: 45% !important;
+    float: left !important;
+}
+.daterangepicker .right {
+    width: 45% !important;
+    float: right !important;
+}
+.daterangepicker .range_inputs {
+    float: right !important;
+    margin-top: 10px !important;
+    margin-right: 15px !important;
+}
+.datepicker.datepicker-dropdown {
+    width: 360px !important;
+}
+
+ .switcher label:before {
+    width: 37px;
+    height: 20px;
+}
+.switcher label:after {
+    height: 15px;
+    width: 15px;
+}
+ .switcher label {
+    height: 20px;
+}
+.switcher input:checked+label:before {
+    background-color:#00F581;
+    border-color:#00F581;
+}

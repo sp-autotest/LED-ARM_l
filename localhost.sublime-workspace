@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nuse Illuminate\\Database\\Seeder;\nus\n\nclass InitSeeder extends Seeder\n{\n    /**\n     * Run the database seeds.\n     *\n     * @return void\n     */\n    public function run()\n    {\n        //\n    }\n}\n",
+			"file": "database/seeds/InitSeeder.php",
+			"file_size": 229,
+			"file_write_time": 131938223032003205,
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nLaravel 5 Snippets\n------------------\n\n  Laravel 5 Snippets for Sublime Text\n  https://github.com/Lykegenes/laravel-5-snippets\n  \n  ********************************************************************************\n  \n  \n  Thank you for installing this package!\n  \n  Please have a look at the project's Readme for up-to-date instructions.\n  These snippets are consistent with the latest stable release of Laravel and its\n  documentation, but some particularities are explained in the Readme file.\n  \n  The home page of the project can be found here :\n  https://github.com/Lykegenes/laravel-5-snippets\n  \n  Improvements or suggestions? Contribute on GitHub!\n\n\nLaravel Colour Scheme\n---------------------\n\n  # Laravel colour scheme\n  \n  Thanks for checking out this theme, based on the style presented in the official Laravel Documentation - https://laravel.com/docs. I hope you enjoy using it!\n  \n  I've done my best to cover what I consider to be the common syntaxes for Laravel - PHP, HTML/Blade, JavaScript, CSS/SASS/LESS, and Markdown.\n  \n  This theme also has colours for SublimeLinter and GitGutter.\n  \n  If you have any suggestions for improvement, feel free to open an issue or pull request.\n  \n  Twitter: @michaeldyrynda\n  GitHub Repo: https://github.com/michaeldyrynda/Laravel.tmTheme\n  GitHub Issues: https://github.com/michaeldyrynda/Laravel.tmTheme/issues\n\n\nLaravel Blade Highlighter\n-------------------------\n\n  Laravel Blade Highlighter\n  \n  This package adds syntax definitions for the Laravel 4 & 5 Blade engine.\n  \n  Works with Sublime Text 3.\n",
+			"settings":
+			{
+				"buffer_size": 1610,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Laravel Artisan",
+				"Laravel Artisan 5: DB:Seed"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Laravel ",
+				"Laravel Docs: Artisan"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html",
+		"/var/www/html/app",
+		"/var/www/html/config",
+		"/var/www/html/database",
+		"/var/www/html/database/seeds",
+		"/var/www/html/Modules"
+	],
+	"file_history":
+	[
+		"/var/www/html/config/app.php",
+		"/home/dev/.config/sublime-text-3/Packages/User/Laravel 5 Artisan.sublime-commands"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/seeds/InitSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1909,
+								1909
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 121.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "localhost.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
